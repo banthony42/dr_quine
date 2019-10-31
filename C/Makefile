@@ -6,7 +6,7 @@
 #    By: banthony <banthony@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/02/08 12:54:17 by banthony          #+#    #+#              #
-#    Updated: 2019/10/31 17:29:06 by banthony         ###   ########.fr        #
+#    Updated: 2019/10/31 17:47:14 by banthony         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -39,7 +39,7 @@ clean:
 	@rm -rf Colleen.o
 	@rm -rf Grace.o
 	@rm -rf Sully.o
-	@rm ./*~
+	@rm -rf ./*~
 	@echo "\033[1;34mDr_Quine\t\033[1;33mCleaning obj\t\t\033[0;32m[OK]\033[0m"
 
 fclean: clean
