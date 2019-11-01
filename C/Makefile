@@ -6,7 +6,7 @@
 #    By: banthony <banthony@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/02/08 12:54:17 by banthony          #+#    #+#              #
-#    Updated: 2019/10/31 17:47:14 by banthony         ###   ########.fr        #
+#    Updated: 2019/11/01 11:08:44 by banthony         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -14,7 +14,7 @@
 
 CC = clang
 
-FLAGS = -Wall -Wextra -Werror
+FLAGS = -Wall -Wextra -Werror -g3 -fsanitize=address
 
 NAME = Colleen Grace Sully
 
