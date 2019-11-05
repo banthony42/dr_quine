@@ -32,9 +32,12 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Colleen.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Grace.cs" />
+    <Compile Include="Sully.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Grace.cs" />
+    <None Include="Colleen.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
