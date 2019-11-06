@@ -6,7 +6,7 @@
 #    By: banthony <banthony@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/02/08 12:54:17 by banthony          #+#    #+#              #
-#    Updated: 2019/11/05 17:13:06 by banthony         ###   ########.fr        #
+#    Updated: 2019/11/06 11:24:36 by banthony         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -21,15 +21,15 @@ NAME = Colleen Grace Sully
 all: $(NAME)
 
 Colleen:
-	@$(CC) $(FLAGS) ./src/src/Colleen.cs -out:./Colleen.exe
+	@$(CC) $(FLAGS) ./src/src/Colleen.cs -out:./Colleen
 	@echo "\033[1;34mDr_Quine\t\033[1;33mCompilation - Colleen\t\033[0;32m[OK]\033[0m"
 
 Grace:
-	@$(CC) $(FLAGS) ./src/src/Grace.cs -out:./Grace.exe
+	@$(CC) $(FLAGS) ./src/src/Grace.cs -out:./Grace
 	@echo "\033[1;34mDr_Quine\t\033[1;33mCompilation - Grace\t\033[0;32m[OK]\033[0m"
 
 Sully:
-	@$(CC) $(FLAGS) ./src/src/Sully.cs -out:./Sully.exe
+	@$(CC) $(FLAGS) ./src/src/Sully.cs -out:./Sully
 	@echo "\033[1;34mDr_Quine\t\033[1;33mCompilation - Sully\t\033[0;32m[OK]\033[0m"
 
 clean:
